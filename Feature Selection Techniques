@@ -1,0 +1,4 @@
+Feature selection is used when the number of features in a dataset is too large or when unnesessary features are present.
+These techniques include:
+1) Removing the unnecessary features using feature importance module of sklearn. This method computes the pair-wise importance of features ranging from -1 to +1. Features with 0 pairwise importance can then be dropped manullay.
+2) Another method can be PCA (Principle Component Analysis) which, with the help of eigenvectors and eigenvalues, reduces the number of features by combining two features into one by finding their principle component.
